@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325596745256",
+    "project_id": "samar-airportwayfinderapp",
+    "storage_bucket": "samar-airportwayfinderapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325596745256:android:8822ce4521df3fb75cef1d",
+        "android_client_info": {
+          "package_name": "com.example.samar_airportwayfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXwgegshepRo_uEWQX42bZkucA5sh0s8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

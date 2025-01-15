@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ScanQR">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="377dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="309dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/bigshot_one"
+        android:text="Scan QR Code"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text=""
+        android:background="@drawable/edittext"
+        android:hint="Email"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/writing"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="@color/writing"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/s_fname"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:hint="First name"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/writing"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/s_lname"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:background="@drawable/edittext"
+        android:hint="Last name"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/writing"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/s_phone"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:background="@drawable/edittext"
+        android:hint="Phone number"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/writing"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/s_add"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:background="@drawable/edittext"
+        android:hint="Address"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/writing"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/s_gender"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:background="@drawable/edittext"
+        android:hint="Gender"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/writing"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/s_age"
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:background="@drawable/edittext"
+        android:hint="Age"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/writing"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Button
+        android:id="@+id/contSave"
+        android:layout_width="189dp"
+        android:layout_height="53dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/bigshot_one"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/logToScan"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Already Scan? Login"
+        android:textColor="@color/writing"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+</LinearLayout>

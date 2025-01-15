@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Transparent fill in the center -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Circular border stroke -->
+    <stroke
+        android:width="4dp"
+        android:color="#3F51B5" /> <!-- Blue color -->
+</shape>

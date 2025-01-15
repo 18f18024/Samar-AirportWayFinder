@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SamarAirportWayFinder"
+        tools:targetApi="31">
+        <activity
+            android:name=".MapBank"
+            android:exported="false" />
+        <activity
+            android:name=".MapEx"
+            android:exported="false"
+            android:label="@string/title_activity_map_ex"
+            android:theme="@style/Theme.SamarAirportWayFinder.NoActionBar" />
+        <activity
+            android:name=".MapsLocatorHome"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProfile"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteAccount"
+            android:exported="false" />
+
+        <activity
+            android:name=".AboutUS"
+            android:exported="false" />
+        <activity
+            android:name=".RateApp"
+            android:exported="false" />
+        <activity
+            android:name=".MapWaiting"
+            android:exported="false" />
+        <activity
+            android:name=".MapToilet"
+            android:exported="false" />
+        <activity
+            android:name=".MapRest"
+            android:exported="false" />
+        <activity
+            android:name=".MapPrayer"
+            android:exported="false" />
+        <activity
+            android:name=".MapOffice"
+            android:exported="false" />
+        <activity
+            android:name=".MapDuty"
+            android:exported="false" />
+        <activity
+            android:name=".ScanCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".ScanQR"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+    </application>
+
+</manifest>

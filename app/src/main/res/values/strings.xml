@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Airport WF</string>
+
+    <string name="mission">Our mission is to guide people at Airport
+    </string>
+    <string name="Vision">Vision is to help the people who are traveling anywhere and need help in guidance about the areas or places within the airport such as restaurants, prayer rooms, washrooms, waiting hall, airport office, duty free shops, banks.
+    </string>
+    <string name="title_activity_map_ex">MapEx</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
